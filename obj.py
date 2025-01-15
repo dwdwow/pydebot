@@ -142,7 +142,7 @@ SignalData = TypedDict('SignalData', {
 
 SignalResponse = TypedDict('SignalResponse', {
     'code': int,
-    'description': str,
+    'message': str,
     'data': SignalData
 })
 
